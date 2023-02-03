@@ -1,0 +1,26 @@
+
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/normalize';
+@import 'base/typographie';
+
+@import 'layout/footer';
+@import 'layout/forms';
+@import 'layout/global';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'pages/col1';
+
+@import 'pages/col2';
+
+@import 'pages/col3';
+
+@import'pages/trending';
+
+@import'pages/mission';
+
+
+@import 'pages/latest';
+
+@import 'pages/contact'

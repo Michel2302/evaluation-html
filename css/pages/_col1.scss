@@ -1,0 +1,216 @@
+.col1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    gap: 2em;
+
+       
+    img{
+        width: 100%;
+         display: block;
+              
+        
+    }
+   .cont-fashion,.cont-tech,.business{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    
+       &::before{
+            content: '';
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(63,251,213,0.09425768598455009) 0%, rgba(151,165,251,1) 99%, rgba(130,148,251,1) 100%, rgba(255,249,250,1) 60%);
+    }
+}
+
+.col1-txt{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding:20px;
+    color: white;
+    z-index: 2;
+
+    h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        transition: .3s all ease-in-out;  
+    }
+    h1:hover{
+        color: red ;
+    }
+    small{
+        color: grey;
+        font-family: 'Roboto', sans-serif;
+    }
+    .btn-red{
+        background-color: red;
+        display: inline;
+        padding: 5px 7px;
+        border-radius: 5px;
+        font-family: 'Barlow', sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+   
+   
+}
+}
+
+.col-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    h1{
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 575px){
+    .col1{
+        margin-right: auto;
+    display: flex;
+    justify-content: center;
+    width: 39%;
+    flex-direction: column;
+    padding-left: 25px;
+    
+
+    }
+
+.col1-txt{
+    font-size: 10px;
+}
+
+    .header-black{
+        display:none;
+    }
+
+    .link-red{
+        display: none;
+    }
+.logo{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+.social-red a{
+    display: none;
+}
+
+
+.logo img:nth-of-type(2){
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cont-fashion{
+    margin-bottom: 30px;
+}
+
+
+nav{
+    width: 99%;
+}
+
+.left-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.wrapper-left .new-left-left{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.col-left .small-txt{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-left .small-txt img{
+    width: 45%;
+}
+
+.col-left .small-txt{
+    font-size: 20px;
+    color: black;
+
+}
+
+// .smalls-txt h6{
+//     color: black;
+// }
+
+.col2 .new{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    margin-left: 25px;
+}
+
+.col-left .small-txt{
+    margin-bottom: 20px;
+}
+
+.col3:nth-of-type(1){
+    display: none;
+}
+
+.col3 > img:first-child{
+    display: none;
+}
+.most-wrapper> :nth-child(2){
+    display: none;
+}
+.most-wrapper> :nth-child(3){
+    display: none;
+}
+
+.trend-cont > :nth-child(2){
+    display: none;
+}
+.trend-cont > :nth-child(3){
+    display: none;
+}
+
+.banner-summer img{
+    width: 30%;
+}
+
+.container .footer-column{
+    display:flex;
+    flex-direction: column;
+}
+
+.col3 {
+    padding-bottom: 36px;
+    padding-top: 36px;
+    margin-left: 25px;
+    padding-right: 145px;
+}
+.social-red  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+}
+
+
+
+
+
+
+
+
