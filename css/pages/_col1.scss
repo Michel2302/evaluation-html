@@ -77,9 +77,9 @@
         margin-right: auto;
     display: flex;
     justify-content: center;
-    width: 39%;
+    width: 35%;
     flex-direction: column;
-    padding-left: 25px;
+    padding-left: 10px;
     
 
     }
@@ -107,9 +107,10 @@
 
 
 .logo img:nth-of-type(2){
-    width: 40%;
+    width: 35%;
     margin-left: 20px;
     margin-top: 20px;
+    padding-bottom: 10px;
 }
 
 .cont-fashion{
@@ -118,7 +119,7 @@
 
 
 nav{
-    width: 99%;
+    width: 100%;
 }
 
 .left-txt{
@@ -140,7 +141,7 @@ nav{
 }
 
 .col-left .small-txt img{
-    width: 45%;
+    width: 40%;
 }
 
 .col-left .small-txt{
@@ -149,15 +150,12 @@ nav{
 
 }
 
-// .smalls-txt h6{
-//     color: black;
-// }
 
 .col2 .new{
     display: flex;
     flex-direction: column;
-    width: 37%;
-    margin-left: 25px;
+    width: 35%;
+    margin-left: 10px;
 }
 
 .col-left .small-txt{
@@ -186,24 +184,47 @@ nav{
 }
 
 .banner-summer img{
-    width: 30%;
+    width: 100%;
 }
 
 .container .footer-column{
     display:flex;
     flex-direction: column;
+    margin-left: 10px;
+}
+
+.footer-right{
+    padding-top: 30px;
+    width: 30%;
 }
 
 .col3 {
     padding-bottom: 36px;
     padding-top: 36px;
-    margin-left: 25px;
+    margin-left: 10px;
     padding-right: 145px;
+   
+}
+
+.mostpopular{
+    width: 140%
 }
 .social-red  {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.trending-news{
+    padding-left: 10px;
+}
+.trend-cont{
+    width: 115%;
+}
+
+.social-red a:nth-of-type(5){
+
+    display: block;
 }
 }
 

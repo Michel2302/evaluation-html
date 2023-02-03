@@ -12,3 +12,41 @@ body{
 }
 
 
+h2:hover{
+    color: red;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h6:hover{
+    color: red;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+span:hover{
+    color: red;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+h4:hover{
+    color: red;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+h5:hover{
+    color: red;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+.social-red a:nth-of-type(5){
+
+    display: none;
+}
